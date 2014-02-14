@@ -1,0 +1,15 @@
+14 //numNodes; space after '(' and before ')' to simplify reading the file
+ 0 (  1 ): 10 //node ( out degree ): adjNodes in arbitrary order
+ 1 ( 10 ): 0 5 8 10 6 9 7 11 12 13
+ 2 (  1 ): 7
+ 3 (  3 ): 1 10 11
+ 4 (  3 ): 0 1 5
+ 5 (  3 ): 6 7 10
+ 6 (  2 ): 7 10
+ 7 (  5 ): 8 10 12 11 13
+ 8 (  1 ): 13
+ 9 (  1 ): 0
+10 (  0 ): 
+11 (  0 ): 
+12 (  2 ): 10 11
+13 (  1 ): 12
